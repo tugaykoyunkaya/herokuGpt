@@ -1,10 +1,9 @@
-import flask
 import os
 from flask import Flask, jsonify
 from pytube import YouTube
 import logging
 
-app = flask.Flask(__name__)
+app = Flask(__name__)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
